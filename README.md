@@ -25,13 +25,20 @@ _Lcyc(G, F) = Ex∼     pdata(x)[‖F(G(x))−x‖1] + Ey∼pdata(y)[‖G(F(y))�
 ### Inference Cycle GAN in personal image
 #### orange2apple
 
+
 result v.s. original image
+
+
 ![](https://i.imgur.com/CFhqolS.png)
 
 ![](https://i.imgur.com/r7Wg1lO.png)
 
 #### apple2orange
+
+
 result v.s. original image
+
+
 ![](https://i.imgur.com/vwa18ZX.png)
 
 ![](https://i.imgur.com/hQtVrfa.png)
@@ -116,22 +123,14 @@ $P_l$ is that of the content image
 #### photo2monet
 | content  | style    | Cycle GAN (with monet style)| Neural Algorithm|  Universal| color transfer| 
 | ----------------- | --------------- |--------------- | --------------- |--------------- | --------------- | 
-|![](https://i.imgur.com/QKJGL2S.jpg) |![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/3QEVtf2.png)|![](https://i.imgur.com/SkBQ9Ld.jpg)|![](https://i.imgur.com/JCvdIM1.jpg)|![](https://i.imgur.com/2BfmXFP.jpg)
-|
-|![](https://i.imgur.com/yY5xJ4I.jpg)|![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/CqO1e7S.png)|![](https://i.imgur.com/oWwDxsn.jpg)|![](https://i.imgur.com/HYbzKdI.jpg)|![](https://i.imgur.com/PRdClBu.jpg)
-|
-|![](https://i.imgur.com/CsHBjda.jpg)|![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/mfBttGE.png)|![](https://i.imgur.com/vQlLvVi.jpg)|![](https://i.imgur.com/pH2wO1k.jpg)|![](https://i.imgur.com/R0U2VHf.jpg)
-|
-|![](https://i.imgur.com/xSwyzfy.jpg)|![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/wyaTbrS.png)|![](https://i.imgur.com/fSnrbKI.jpg)|![](https://i.imgur.com/ENnqJrJ.jpg)|![](https://i.imgur.com/t3VX7rv.jpg)
-|
-|![](https://i.imgur.com/QKJGL2S.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/3QEVtf2.png)|![](https://i.imgur.com/QyUaFj9.jpg)|![](https://i.imgur.com/HxEPSTj.jpg)|![](https://i.imgur.com/5LundSa.jpg)
-|
-|![](https://i.imgur.com/yY5xJ4I.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/CqO1e7S.png)|![](https://i.imgur.com/Cv0qqo4.jpg)|![](https://i.imgur.com/FRbpL1q.jpg)|![](https://i.imgur.com/BCB7kWi.jpg)
-|
-|![](https://i.imgur.com/CsHBjda.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/mfBttGE.png)|![](https://i.imgur.com/RwD8Ydx.jpg)|![](https://i.imgur.com/2WomYI2.jpg)|![](https://i.imgur.com/t3Xn9MP.jpg)
-|
-|![](https://i.imgur.com/DgAhzHT.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/wyaTbrS.png)|![](https://i.imgur.com/VvTOuo1.jpg)|![](https://i.imgur.com/dxNVGAH.jpg)|![](https://i.imgur.com/iQYs7er.jpg)
-|
+|![](https://i.imgur.com/QKJGL2S.jpg) |![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/3QEVtf2.png)|![](https://i.imgur.com/SkBQ9Ld.jpg)|![](https://i.imgur.com/JCvdIM1.jpg)|![](https://i.imgur.com/2BfmXFP.jpg)|
+|![](https://i.imgur.com/yY5xJ4I.jpg)|![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/CqO1e7S.png)|![](https://i.imgur.com/oWwDxsn.jpg)|![](https://i.imgur.com/HYbzKdI.jpg)|![](https://i.imgur.com/PRdClBu.jpg)|
+|![](https://i.imgur.com/CsHBjda.jpg)|![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/mfBttGE.png)|![](https://i.imgur.com/vQlLvVi.jpg)|![](https://i.imgur.com/pH2wO1k.jpg)|![](https://i.imgur.com/R0U2VHf.jpg)|
+|![](https://i.imgur.com/xSwyzfy.jpg)|![](https://i.imgur.com/DfxqM53.jpg)|![](https://i.imgur.com/wyaTbrS.png)|![](https://i.imgur.com/fSnrbKI.jpg)|![](https://i.imgur.com/ENnqJrJ.jpg)|![](https://i.imgur.com/t3VX7rv.jpg)|
+|![](https://i.imgur.com/QKJGL2S.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/3QEVtf2.png)|![](https://i.imgur.com/QyUaFj9.jpg)|![](https://i.imgur.com/HxEPSTj.jpg)|![](https://i.imgur.com/5LundSa.jpg)|
+|![](https://i.imgur.com/yY5xJ4I.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/CqO1e7S.png)|![](https://i.imgur.com/Cv0qqo4.jpg)|![](https://i.imgur.com/FRbpL1q.jpg)|![](https://i.imgur.com/BCB7kWi.jpg)|
+|![](https://i.imgur.com/CsHBjda.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/mfBttGE.png)|![](https://i.imgur.com/RwD8Ydx.jpg)|![](https://i.imgur.com/2WomYI2.jpg)|![](https://i.imgur.com/t3Xn9MP.jpg)|
+|![](https://i.imgur.com/DgAhzHT.jpg)|![](https://i.imgur.com/MqSFc8o.jpg)|![](https://i.imgur.com/wyaTbrS.png)|![](https://i.imgur.com/VvTOuo1.jpg)|![](https://i.imgur.com/dxNVGAH.jpg)|![](https://i.imgur.com/iQYs7er.jpg)|
 
 
 #### Features

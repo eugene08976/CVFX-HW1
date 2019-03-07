@@ -63,6 +63,7 @@ result v.s. original image
 RGB三個channel具有相當強的關聯性，而做color transfer的同時，適當地改變三個channel比較困難，因此選擇利用三個channel互不相關的LAB color space來進行計算，過程中，把整個分佈轉換，使LAB color space的每個維度都是原本RGB 值的線性組合，比較會顧及相似顏色間的相對關係。
 
 #### Example
+| ----------------- | --------------- | --------------- |
 |![](https://i.imgur.com/RrztFYY.jpg)|![](https://i.imgur.com/APtBT2Q.jpg)|![](https://i.imgur.com/j4ttZKo.jpg)|
 
 ### [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf)
